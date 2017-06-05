@@ -86,3 +86,9 @@ config SINGLE_PANEL_OUTPUT
 
 config MTK_DISPTE_GPIO
         bool "MediaTek DISPTE GPIO Support"
+
+config MTK_VIDEOX_CYNGN_LIVEDISPLAY
+	bool CONFIG_MTK_VIDEOX_CYNGN_LIVEDISPLAY
+	default n
+	help
+		Enable the RGB interface for color calibration
